@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Playing Around With Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <h1 style="color: red;">All about Headings!</h1>
+      <h1>Bootstrap <small>Heading h1</small></h1>
+      <h2>Bootstrap Heading h2</h2>
+      <h3>Bootstrap Heading h3</h3>
+      <h4>Bootstrap Heading h4</h4>
+      <h5>Bootstrap Heading h5</h5>
+      <h6>Bootstrap Heading h6</h6>
+      <br>
+      <br>
+
+      <h1 style="color: red;">Display Headings!</h1>
+      <h1 class="display-1">Display <small>Heading 1</small></h1>
+      <h1 class="display-2">Display 1</h1>
+      <h1 class="display-3">Display 1</h1>
+      <h1 class="display-4">Display 1</h1>
+      <br>
+      <br>
+
+      <h1 style="color: red;">The mark tag & blockquote</h1>
+      <p class="lead">Whatever the hell's <mark>happening</mark>, its just not right.</p>
+      <br>
+      <blockquote class="blockquote">
+        <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+        <footer class="blockquote-footer" style="text-align: right;">From WWF's website</footer>
+      </blockquote>
+      <br>
+
+      <h1 style="color: red;">The code, kbd tag</h1>
+      <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+      <br>
+      <p>To copy an item, select the item and use the shortcut: <kbd style='background-color:blue; color: white;'>Ctrl+C</kbd></p>
+
+      <h1 style="color: red;">Responsive alignment of text</h1>
+      <p>Note that text is left-aligned by default.</p>
+      <p class="text-right">Right aligned text on all screen sizes.</p>
+      <p class="text-sm-right">Right aligned text on small or wider screens.</p>
+      <p class="text-md-right">Right aligned text on medium or wider screens.</p>
+      <p class="text-lg-right">Right aligned text on large or wider screens.</p>
+      <p class="text-xl-right">Right aligned text on xlarge or wider screens.</p>
+    </div>
+    <br>
+    <br>
+    <div class="table-responsive-sm container">
+      <h1 style="color: red;">All about Tables!</h1>
+      <table id="" class="table table-hover table-bordered text-center" width="">
+				<thead class="thead-light">
+          <tr class="">
+						<th>Type</th>
+						<th>Size in bits</th>
+						<th>Minimal Range</th>
+				  </tr>
+        </thead>
+        <tbody>
+					<tr class="">
+						<td>char/signed char*</td>
+						<td>8 bits</td>
+						<td>-(2<sup>7</sup>-1) to (2<sup>7</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>unsigned char</td>
+						<td>8 bits</td>
+						<td>0 to (2<sup>8</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>int/signed int*</td>
+						<td>16/32 bits</td>
+						<td>-(2<sup>15</sup>-1) to (2<sup>15</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>unsigned int</td>
+						<td>16/32 bits</td>
+						<td>0 to (2<sup>16</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>short int/signed short int*</td>
+						<td>16 bits</td>
+						<td>-(2<sup>15</sup>-1) to (2<sup>15</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>unsigned short int</td>
+						<td>16 bits</td>
+						<td>0 to (2<sup>16</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>long int/signed long int*</td>
+						<td>32 bits</td>
+						<td>-(2<sup>31</sup>-1) to (2<sup>31</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>unsigned long int</td>
+						<td>32 bits</td>
+						<td>0 to (2<sup>32</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>long long int*</td>
+						<td>64 bits</td>
+						<td>-(2<sup>63</sup>-1) to 2<sup>63</sup>-1</td>
+					</tr>
+					<tr class="">
+						<td>unsigned long long int*</td>
+						<td>64 bits</td>
+						<td>0 to (2<sup>64</sup>-1)</td>
+					</tr>
+					<tr class="">
+						<td>float</td>
+						<td>32 bits</td>
+						<td>1E-37 to 1E+37</td>
+					</tr>
+					<tr class="">
+						<td>double</td>
+						<td>64 bits</td>
+						<td>1E-37 to 1E+37</td>
+					</tr>
+					<tr class="">
+						<td>long double</td>
+						<td>80 bits</td>
+						<td>1E-37 to 1E+37</td>
+					</tr>
+				</tbody>
+      </table>
+      <br>
+      <h1 style="color: red;">All about Images!</h1>
+      <br>
+      <div class="row text-center">
+        <div class="col-sm-4">
+        <p>Thumbnail style with <code>.img-thumbnail</code> </p>
+        <img src="images/pic.jpg"  alt="Marshall Mathers" class="img-thumbnail" width="80%">
+        </div>
+        <div class="col-sm-4">
+          <p>Circular with <code>.rounded-circle</code> </p>
+          <img src="images/pic.jpg" alt="Marshall Mathers" class="rounded-circle" width="80%">
+        </div>
+        <div class="col-sm-4">
+          <p>Rounded Edges with <code>.rounded</code> </p>
+          <img src="images/pic.jpg" alt="Marshall Mathers" class="rounded" width="80%">
+        </div>
+      </div>
+      <br>
+      <br>
+      <p class="text-center">Responsive Images</p>
+      <img src="images/cover.jpg" class="rounded img-fluid" alt="">
+      <br>
+      <br>
+    </div>
+
+    <div class="container">
+      <h1 style="color: red;">Jumbotrons!</h1>
+      <p class="jumbotron">
+        A jumbotron indicates a big grey box for calling extra attention to some special content or information.
+        <strong>Tip:</strong> Inside a jumbotron you can put nearly any valid HTML, including other Bootstrap elements/classes.
+      </p>
+      <br>
+      <br>
+
+      <h1 style="color: red;">Alerts!</h1>
+      <p class="text-center">Normal Alerts:</p>
+      <br>
+      <div class="alert alert-success">
+        <strong>Done!</strong> Make sure to visit our <a href="#" class="alert-link">Tutorials</a> section!
+      </div>
+
+      <p class="text-center">Closable Alerts:</p>
+      <br>
+      <div class="alert alert-success alert-dismissable show fade">
+        <button type="button" class="close" data-dismiss="alert">&times</button>
+        <strong>Success!</strong> Indicates a successful or positive action.
+      </div>
+
+      <h1 style="color: red;">Buttons!</h1>
+      <br>
+      <button type="button" class="btn">Basic</button>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <a href="#" class="btn btn-info">btn applied to an a tag</a>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-link">Link</button>
+      <br>
+      <br>
+      <button type="button" class="btn btn-primary btn-lg" name="button">Large</button>
+      <button type="button" class="btn btn-primary btn" name="button">Medium</button>
+      <button type="button" class="btn btn-primary btn-sm" name="button">Small</button>
+      <br>
+      <br>
+      <button type="button" class="btn btn-primary btn-block" name="button">Full-width button</button>
+      <br>
+      <br>
+      <button type="button" class="btn btn-success" name="button">
+        <span class="spinner-border spinner-border-sm"></span>
+        &nbsp Setting you up...
+      </button>
+      <br>
+      <br>
+      <br>
+      <div class="row text-center">
+        <div class="col">
+          <p>Horizontal Button Groups</p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary" name="button">Home</button>
+            <button type="button" class="btn btn-primary" name="button">About Us</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" name="button">More</button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Support</a>
+                <a href="#" class="dropdown-item">Help</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="col">
+            <p>Vertical Button Groups</p>
+            <div class="btn-group-vertical">
+              <button type="button" class="btn btn-primary" name="button">Home</button>
+              <button type="button" class="btn btn-primary" name="button">About Us</button>
+              <button type="button" class="btn btn-primary" name="button">More</button>
+            </div>
+          </div>
+      </div>
+      <br>
+      <br>
+      <h1>This is how you use badges <span class="badge badge-success">New</span></h1>
+      <br>
+      <button type="button" class="btn btn-primary" name="button">Notifications <span class="badge badge-light">4</span></button>
+      <br><br>
+    </div>
+
+    <div class="container">
+      <h1 style="color: red;">Progress Bars & Spinners!</h1>
+      <br>
+      Progress Bars:
+      <br>
+      <div class="progress">
+        <div class="progress-bar" style="width:25%"></div>
+      </div>
+      <br>
+      <div class="progress" style="height:20px">
+        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:30%">30%</div>
+      </div>
+      <br>
+      <div class="progress" style="height:40px">
+        <div class="progress-bar bg-warning progress-bar-animated progress-bar-striped" style="width:50%"></div>
+      </div>
+      <br>
+
+      <div class="progress">
+        <div class="progress-bar bg-success" style="width:40%">
+          Free Space
+        </div>
+        <div class="progress-bar bg-warning" style="width:40%">
+          Warning
+        </div>
+        <div class="progress-bar bg-danger" style="width:20%">
+          Critical
+        </div>
+      </div>
+      <br>
+      Spinners:
+      <br>
+      <div class="spinner-border text-muted"></div>
+      <div class="spinner-border spinner-border-sm text-primary"></div>
+      <div class="spinner-border text-success"></div>
+      <div class="spinner-border text-info"></div>
+      <div class="spinner-border text-warning"></div>
+      <div class="spinner-border text-danger"></div>
+      <div class="spinner-border text-secondary"></div>
+      <div class="spinner-border spinner-border-sm text-dark"></div>
+      <div class="spinner-border text-light"></div>
+      <br>
+      <div class="spinner-grow text-muted"></div>
+      <div class="spinner-grow spinner-grow-sm text-primary"></div>
+      <div class="spinner-grow text-success"></div>
+      <div class="spinner-grow text-info"></div>
+      <div class="spinner-grow text-warning"></div>
+      <div class="spinner-grow text-danger"></div>
+      <div class="spinner-grow text-secondary"></div>
+      <div class="spinner-grow spinner-grow-sm text-dark"></div>
+      <div class="spinner-grow text-light"></div>
+      <br>
+      <br>
+
+      <h1 style="color: red;">Pagination</h1>
+      <br>
+      <div class="row">
+        <div class="col">
+          <ul class="pagination pagination-sm">
+            <li class="page-item disabled"> <a href="#" class="page-link">Previous</a> </li>
+            <li class="page-item active"> <a href="#" class="page-link">1</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">2</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">3</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">Next</a> </li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <ul class="pagination">
+            <li class="page-item disabled"> <a href="#" class="page-link">Previous</a> </li>
+            <li class="page-item active"> <a href="#" class="page-link">1</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">2</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">3</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">Next</a> </li>
+          </ul>
+        </div>
+
+        <!-- <div class="col">
+          <ul class="pagination pagination-lg">
+            <li class="page-item disabled"> <a href="#" class="page-link">Previous</a> </li>
+            <li class="page-item active"> <a href="#" class="page-link">1</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">2</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">3</a> </li>
+            <li class="page-item"> <a href="#" class="page-link">Next</a> </li>
+          </ul>
+        </div> -->
+
+      </div>
+      <br>
+
+      <h1 style="color: red;">Cards!</h1>
+      <br>
+      <div class="card" style="width: 35%;">
+        <img src="images\pic.jpg" alt="Eminem close-up" class="card-img-top">
+        <div class="card-body text-center">
+          <h4 class="card-title">Marshall Mathers</h4>
+          <p class="card-text">This legend from Detriot needs no introduction.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <p>Cards as a part of a responsive grid:</p>
+      <div class="card-columns">
+        <div class="card bg-primary">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the first card.</p>
+          </div>
+        </div>
+
+        <div class="card bg-success">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the 2nd card.</p>
+          </div>
+        </div>
+
+        <div class="card bg-warning">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the 3rd card.</p>
+          </div>
+        </div>
+
+        <div class="card bg-danger">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the 4th card.</p>
+          </div>
+        </div>
+
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the 5th card.</p>
+          </div>
+        </div>
+
+        <div class="card bg-info">
+          <div class="card-body text-center">
+            <p class="card-text">Some text inside the 6th card.</p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <p>Creates a deck of cards with equal-sized cards. Each of the cards expand vertically as the screen size becomes smaller and smaller A card deck doesn't let cards stack on each other horizontally until the viewport hits the <code>'sm'</code> size. </p>
+      <div class="card-deck">
+        <div class="card bg-primary">
+          <div class="card-body text center">
+            <p>The first card in the deck</p>
+          </div>
+        </div>
+
+        <div class="card bg-success">
+          <div class="card-body text center">
+            <p>The 2nd card in the deck</p>
+          </div>
+        </div>
+
+        <div class="card bg-danger">
+          <div class="card-body text center">
+            <p>The 3rd card in the deck</p>
+          </div>
+        </div>
+
+        <div class="card bg-warning">
+          <div class="card-body text center">
+            <p>The 4th card in the deck</p>
+          </div>
+        </div>
+
+        <div class="card bg-info">
+          <div class="card-body text center">
+            <p>The 5th card in the deck</p>
+          </div>
+        </div>
+
+        <div class="card bg-light">
+          <div class="card-body text center">
+            <p>The 6th card in the deck</p>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <p>The <code>.card-group</code> class is similar to <code>.card-deck</code>. The only difference is that the <code>.card-group</code> class removes left and right margins between each card but follows the same stacking procedure.</p>
+    </div>
+
+    <br>
+
+    <div class="container">
+
+      <h1 style="color: red;">Dropdowns & Collapses!</h1>
+      <br>
+      <p><strong>Basic Dropdown:</strong> A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list:</p>
+
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" name="button">
+          Dropdown Button
+        </button>
+
+        <div class="dropdown-menu">
+          <div class="dropdown-header">
+            First set
+          </div>
+          <a href="#" class="dropdown-item">Link 1</a>
+          <a href="#" class="dropdown-item">Link 2</a>
+          <a href="#" class="dropdown-item">Link 2.5</a>
+          <div class="dropdown-divider">
+          </div>
+          <div class="dropdown-header">
+            Second set
+          </div>
+          <a href="#" class="dropdown-item">Normal</a>
+          <a href="#" class="dropdown-item active">Active</a>
+          <a href="#" class="dropdown-item disabled">Disabled</a>
+        </div>
+      </div>
+      <br>
+      <p>
+        <strong>Dropdown Position:</strong> You can also create a "dropright" or "dropleft" menu, by adding the <code>.dropright</code> or <code>.dropleft</code> class to the dropdown element. Note that the caret/arrow is added automatically:
+      </p>
+
+      <div class="row text-center">
+        <div class="col">
+          <div class="dropdown dropright">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropright</button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Link 1</a>
+              <a href="#" class="dropdown-item">Link 2</a>
+              <a href="#" class="dropdown-item">Link 3</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="dropup">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropup</button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Link 1</a>
+              <a href="#" class="dropdown-item">Link 2</a>
+              <a href="#" class="dropdown-item">Link 3</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="dropdown dropleft">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Dropleft</button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Link 1</a>
+              <a href="#" class="dropdown-item">Link 2</a>
+              <a href="#" class="dropdown-item">Link 3</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <br>
+      <br>
+
+      <p>
+        <strong>Basic Collapsible:</strong> Collapsibles are useful when you want to hide and show large amount of
+         content:
+       </p>
+      <button data-toggle="collapse" data-target="#demo">Show more...</button>
+      <p id="demo" class="collapse">
+        Lorem ipsum dolor text....
+      </p>
+      <br>
+      <br>
+
+      <p id="demo1" class="collapse show">
+        Lorem ipsum dolor text....
+      </p>
+      <button data-toggle="collapse" data-target="#demo1">Show less...</button>
+      <br>
+      <br>
+
+      <p><strong>Accordions:</strong> </p>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">Collapsible Group Item #1</a>
+          </div>
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum..
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseTwo">Collapsible Group Item #2</a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum..
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseThree">Collapsible Group Item #3</a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Lorem ipsum..
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <h1 style="color: red;">Navs!</h1>
+      <br>
+      <p>Tabs:</p>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Link 1</a>
+            <a href="#" class="dropdown-item">Link 2</a>
+            <a href="#" class="dropdown-item">Link 3</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link 2</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <br>
+
+      <p>Pills:</p>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Link 1</a>
+            <a href="#" class="dropdown-item">Link 2</a>
+            <a href="#" class="dropdown-item">Link 3</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link 2</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <br>
+
+      <p>Dynamic Tabs:</p>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active" data-toggle="tab">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu1" class="nav-link" data-toggle="tab">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu2" class="nav-link" data-toggle="tab">Menu 2</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+          home pane.
+        </div>
+        <div class="tab-pane container fade" id="menu1">
+          menu 1 pane.
+        </div>
+        <div class="tab-pane container <fade></fade>" id="menu2">
+          menu 2 pane.
+        </div>
+      </div>
+      <br>
+
+
+      <p>Dynamic Pills:</p>
+      <!-- Nav Pills -->
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#home1" class="nav-link active" data-toggle="pill">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu3" class="nav-link" data-toggle="pill">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu4" class="nav-link" data-toggle="pill">Menu 2</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="home1">
+          home pane.
+        </div>
+        <div class="tab-pane container fade" id="menu3">
+          menu 1 pane.
+        </div>
+        <div class="tab-pane container fade" id="menu4">
+          menu 2 pane.
+        </div>
+      </div>
+      <br>
+      <h1 style="color: red;">Navbars!</h1>
+      <br>
+
+    </div>
+
+    <div class="">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+
+        <a class="navbar-brand" href="#"> <img src="icons/spotify.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Spotify</a>
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#links"></button>
+
+        <div class="collapse navbar-collapse" id="links">
+          <ul class="navbar-nav ml-auto">
+            <form class="form-inline" action="">
+              <input type="text" placeholder="Search..." class="form-control mr-sm-2 nav-form-size nav-form-margin">
+              <button type="button" class="btn btn-success nav-form-margin" type="submit">Go</button>
+            </form>
+
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Link 1</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Link 2</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Dropdown</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link 1</a>
+                <a href="#" class="dropdown-item">Link 2</a>
+                <a href="#" class="dropdown-item">Link 3</a>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+
+
+      </nav>
+    </div>
+
+    <div class="container">
+
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu dui lobortis, pharetra enim vitae, hendrerit magna. Fusce a massa ligula. Vivamus lorem urna, egestas venenatis velit finibus, tincidunt maximus erat. Quisque ipsum velit, ultrices sed eleifend vel, efficitur nec libero. Integer in eros mi. Etiam porttitor maximus neque, sed dictum lacus volutpat nec. Sed a congue neque. Suspendisse quis dui id magna scelerisque placerat sed eu ex. Morbi vitae leo at nunc commodo lobortis in tincidunt ipsum. Ut id tortor egestas, feugiat urna a, scelerisque odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec posuere auctor diam nec congue. Vivamus sed est sit amet dolor scelerisque dapibus vitae et odio. Duis rhoncus, lacus sed sodales tempor, ante lorem euismod nunc, at tempus nisl tellus ut magna. Sed sed facilisis purus. Nullam pretium nunc ultrices libero condimentum suscipit. Proin mi elit, lobortis ac venenatis mollis, luctus id nunc. Aenean sed quam et dui tempus fermentum faucibus non sapien. Donec mattis dictum nisi a mattis. Phasellus aliquet felis non gravida malesuada. Sed fermentum ligula quis erat commodo dignissim. Ut lacinia, leo quis consequat dapibus, erat lorem sagittis ex, eget aliquet purus elit id dolor. </p>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <p>Pellentesque tortor arcu, porta venenatis dolor a, tempus mollis justo. Praesent consequat tempus tellus ut pulvinar. Nunc interdum faucibus mauris a pharetra. Vestibulum bibendum nunc ac rutrum euismod. Nullam dictum mattis consequat. Ut porta bibendum urna sed finibus. Donec id turpis non ante euismod finibus tristique vitae felis. Aliquam dolor tellus, lobortis vel ipsum vel, eleifend euismod tortor. Vivamus vel massa id mauris vehicula semper. Phasellus quis mollis libero. Aliquam cursus, ligula at consequat rhoncus, quam nunc pretium felis, ultrices ornare ante lacus sed ipsum. Vivamus vitae ultricies nulla, aliquam accumsan arcu. Cras nec erat posuere, commodo eros a, tempor eros. Sed tempor feugiat leo.</p>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <p>Mauris rhoncus ut mauris at scelerisque. Duis a elit cursus, mollis justo non, varius odio. Pellentesque gravida in odio mollis eleifend. Etiam porta, tortor vel rhoncus porta, est erat suscipit velit, quis commodo quam nulla sit amet tellus. Cras laoreet dolor erat, vel bibendum risus venenatis imperdiet. Curabitur aliquet nec urna sed ullamcorper. Maecenas ut elit lacus. Sed nisl arcu, dapibus et nunc a, elementum tincidunt ex. Sed at justo et enim aliquam elementum. Suspendisse vulputate risus malesuada tincidunt scelerisque. Sed ac ipsum id sem egestas dignissim. Aenean venenatis magna libero, id mattis purus tincidunt eu. Duis id nunc a augue aliquam pellentesque. Vivamus justo velit, volutpat vitae varius fermentum, tincidunt ac lectus. Morbi in eros condimentum, tincidunt diam ut, sagittis nisl.
+  </p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu dui lobortis, pharetra enim vitae, hendrerit magna. Fusce a massa ligula. Vivamus lorem urna, egestas venenatis velit finibus, tincidunt maximus erat. Quisque ipsum velit, ultrices sed eleifend vel, efficitur nec libero. Integer in eros mi. Etiam porttitor maximus neque, sed dictum lacus volutpat nec. Sed a congue neque. Suspendisse quis dui id magna scelerisque placerat sed eu ex. Morbi vitae leo at nunc commodo lobortis in tincidunt ipsum. Ut id tortor egestas, feugiat urna a, scelerisque odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec posuere auctor diam nec congue. Vivamus sed est sit amet dolor scelerisque dapibus vitae et odio. Duis rhoncus, lacus sed sodales tempor, ante lorem euismod nunc, at tempus nisl tellus ut magna. Sed sed facilisis purus. Nullam pretium nunc ultrices libero condimentum suscipit. Proin mi elit, lobortis ac venenatis mollis, luctus id nunc. Aenean sed quam et dui tempus fermentum faucibus non sapien. Donec mattis dictum nisi a mattis. Phasellus aliquet felis non gravida malesuada. Sed fermentum ligula quis erat commodo dignissim. Ut lacinia, leo quis consequat dapibus, erat lorem sagittis ex, eget aliquet purus elit id dolor. </p>
+
+  </div>
+      <br>
+
+
+
+
+
+
+
+
+  <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
